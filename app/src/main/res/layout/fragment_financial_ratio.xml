@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.FinancialRatioFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Quarter : "
+        android:id="@+id/quarterTxt"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Year : "
+        android:id="@+id/yearTxt"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="net profit margin : 0.00%"
+        android:id="@+id/quarterProfitTxt"
+        android:layout_below="@+id/quarterTxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="net profit margin : 0.00%"
+        android:id="@+id/yearProfitTxt"
+        android:layout_alignTop="@+id/quarterProfitTxt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="operating margin : 0.00%"
+        android:id="@+id/quarterOperatingTxt"
+        android:layout_below="@+id/quarterProfitTxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="operating margin : 0.00%"
+        android:id="@+id/yearOperatingTxt"
+        android:layout_alignTop="@+id/quarterOperatingTxt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EBITDA margin : 0.00%"
+        android:id="@+id/quarterEBITDAtxt"
+        android:layout_below="@+id/quarterOperatingTxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EBITDA margin : 0.00%"
+        android:id="@+id/yearEBITDAtxt"
+        android:layout_below="@+id/yearOperatingTxt"
+        android:layout_alignRight="@+id/yearOperatingTxt"
+        android:layout_alignEnd="@+id/yearOperatingTxt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROA :"
+        android:id="@+id/quarterROAtxt"
+        android:layout_below="@+id/quarterEBITDAtxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROA :"
+        android:id="@+id/yearROAtxt"
+        android:layout_below="@+id/yearEBITDAtxt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROE :"
+        android:id="@+id/quarterROEtxt"
+        android:layout_below="@+id/quarterROAtxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROE : "
+        android:id="@+id/yearROEtxt"
+        android:layout_alignTop="@+id/quarterROEtxt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
